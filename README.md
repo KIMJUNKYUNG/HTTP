@@ -53,7 +53,6 @@ Content-Type: text/html // 어떤 타입인지를 확인해서 web browser는 �
 Web browser는 Web server에 필요한 정보를 대신 요청해주는 기계, Web Server는 WEb browser가 요청한 정보를 적절하게 응답해주는 기계라고 할 수 있다.
 
 **
-쉽게 생각하면 웹 브라우저는 사용자가 요청한 필요한 웹 서버의 데이터를 HTTP의 형식의 소스코드로 정리해서 웹 서버에게 request하게 된다. 웹 서버는 이러한 HTTP 형식의 문서를 response하게되고 reponse한 데이터를 기반으로 필요한 데이터의 헤더를 생성해서 필요한 데이터와 함께 담아서 web browser에거 response 해주게 된다. response 받은 데이터를 웹 브라우저는 읽고 결과적으로 화면에 나타나게 되는 것이다.
-**
+쉽게 생각하면 웹 브라우저는 사용자가 요청한 필요한 웹 서버의 데이터를 HTTP의 형식의 소스코드로 정리해서 웹 서버에게 request하게 된다. 웹 서버는 이러한 HTTP 형식의 문서를 response하게되고 reponse한 데이터를 기반으로 필요한 데이터의 헤더를 생성해서 필요한 데이터와 함께 담아서 web browser에거 response 해주게 된다. response 받은 데이터를 웹 브라우저는 읽고 결과적으로 화면에 나타나게 되는 것이다.**
 
 **https는 http secure이기 암호화 한 상태로 data를 주고받게 된다. 따라서 정보 보안을 위해서는 https가 꼭 필요로 된다.**
