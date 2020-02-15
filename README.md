@@ -32,8 +32,8 @@ Referer: http://localhost:8080/badboy.html
 보내주는 것이다.
 
 ### Response Headers 예시
-HTTP/1.1 200 OK
--> version, status code(응답 결과), 응답 결과에 대한 사람의 언어(http responses code.이 중 200번대이면 성공했다는 뜻이다.
+HTTP/1.1 200 OK<br>
+-> version, status code(응답 결과), 응답 결과에 대한 사람의 언어(http responses code.이 중 200번대이면 성공했다는 뜻이다.<br>
 -> 403 forbidden, 404 not found, 300번대 redirection 등이 있다.
 Date: Sat, 15 Feb 2020 03:52:55 GMT
 Server: Apache
